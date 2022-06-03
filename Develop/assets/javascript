@@ -1,0 +1,7 @@
+let test = hello
+
+function test (){
+    console.log (hello)
+    return hello
+}
+document.getElementById("current day").style.color = "red";
