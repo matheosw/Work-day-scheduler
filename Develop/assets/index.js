@@ -26,66 +26,67 @@ $('#CurrentDay').text(currentDay)
 
 let currentHour =moment().hours
 
-    $('#9text').val(localStorage.getItem('9text'))
-    localStorage.getItem('9text')
+    $('#9text').append(localStorage.getItem('9text'))
+    console.log(localStorage.getItem('9text'))
 
-$('9btn').on('click', function () {
+$('#9btn').on('click', function () {
   localStorage.setItem('9text', $('#9text').val())
 })
 
-$('#10text').val(localStorage.getItem('text'))
-    localStorage.getItem('10text')
+$('#10text').append(localStorage.getItem('10text'))
+    console.log(localStorage.getItem('10text'))
 
-$('10btn').on('click', function () {
+$('#10btn').on('click', function () {
   localStorage.setItem('10text', $('#10text').val())
+
 })
 // 
-$('#11text').val(localStorage.getItem('11text'))
-    localStorage.getItem('11text')
+$('#11text').append(localStorage.getItem('11text'))
+    console.log(localStorage.getItem('11text'))
 
-$('11btn').on('click', function () {
+$('#11btn').on('click', function () {
   localStorage.setItem('11text', $('#11text').val())
 })
 
-$('#12text').val(localStorage.getItem('12text'))
-    localStorage.getItem('12text')
+$('#12text').append(localStorage.getItem('12text'))
+   console.log(localStorage.getItem('12text'))
 
-$('12btn').on('click', function () {
+$('#12btn').on('click', function () {
   localStorage.setItem('12text', $('#12text').val())
 })
 // 
-$('#1pmtext').val(localStorage.getItem('1pmtext'))
-    localStorage.getItem('1pmtext')
+$('#1text').append(localStorage.getItem('1text'))
+    console.log(localStorage.getItem('1text'))
 
-$('1pmbtn').on('click', function () {
-  localStorage.setItem('1pmtext', $('#1pmtext').val())
+$('#1btn').on('click', function () {
+  localStorage.setItem('1text', $('#1text').val())
 })
 
-$('#2pmtext').val(localStorage.getItem('2pmtext'))
-    localStorage.getItem('2pmtext')
+$('#2text').append(localStorage.getItem('2text'))
+    console.log(localStorage.getItem('2text'))
 
-$('2pmbtn').on('click', function () {
-  localStorage.setItem('2pmtext', $('#2pmtext').val())
+$('#2btn').on('click', function () {
+  localStorage.setItem('2text', $('#2text').val())
 })
 // 
-$('#3pmtext').val(localStorage.getItem('3pmtext'))
-    localStorage.getItem('3pmtext')
+$('#3pmtext').append(localStorage.getItem('3pmtext'))
+    console.log(localStorage.getItem('3pmtext'))
 
-$('3pmbtn').on('click', function () {
+$('#3pmbtn').on('click', function () {
   localStorage.setItem('3pmtext', $('#3pmtext').val())
 })
 
-$('#4pmtext').val(localStorage.getItem('4pmtext'))
-    localStorage.getItem('4pmtext')
+$('#4pmtext').append(localStorage.getItem('4pmtext'))
+    console.log(localStorage.getItem('4pmtext'))
 
-$('4pmbtn').on('click', function () {
+$('#4pmbtn').on('click', function () {
   localStorage.setItem('4pmtext', $('#4pmtext').val())
 })
 
-$('#5pmtext').val(localStorage.getItem('5pmtext'))
-    localStorage.getItem('5pmtext')
+$('#5pmtext').append(localStorage.getItem('5pmtext'))
+    console.log(localStorage.getItem('5pmtext'))
 
-$('5pmbtn').on('click', function () {
+$('#5pmbtn').on('click', function () {
   localStorage.setItem('5pmtext', $('#5pmtext').val())
 })
 
